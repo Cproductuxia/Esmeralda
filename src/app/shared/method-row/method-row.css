@@ -1,0 +1,29 @@
+:host { display: block; }
+
+.method-row {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  gap: 1.5rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid var(--tan);
+}
+
+.method-row h2 {
+  font-size: 1.25rem;
+}
+
+.method-row p {
+  margin: 0;
+  color: var(--brown-700);
+}
+
+.method-time {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--gold);
+}
+
+@media (max-width: 560px) {
+  .method-row { grid-template-columns: 1fr; }
+}

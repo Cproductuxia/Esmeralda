@@ -1,0 +1,10 @@
+:host { display: block; }
+
+footer {
+  text-align: left;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+  color: var(--brown-700);
+  font-size: 0.85rem;
+}

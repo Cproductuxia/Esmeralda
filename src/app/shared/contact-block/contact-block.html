@@ -1,0 +1,9 @@
+<div class="contact-block">
+  <h2>{{ titulo() }}</h2>
+  <p>{{ texto() }}</p>
+  <ul class="contact-list">
+    @for (d of datos(); track d.etiqueta) {
+      <li><span>{{ d.etiqueta }}</span><span>{{ d.valor }}</span></li>
+    }
+  </ul>
+</div>

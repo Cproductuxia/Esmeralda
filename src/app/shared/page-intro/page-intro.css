@@ -1,0 +1,20 @@
+:host { display: block; }
+
+.page-intro {
+  padding: 3.5rem 1.5rem 0;
+}
+
+.page-intro-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.page-intro h1 {
+  font-size: clamp(1.9rem, 4vw, 2.5rem);
+}
+
+.page-intro p {
+  margin-top: 1rem;
+  max-width: 55ch;
+  color: var(--brown-700);
+}
