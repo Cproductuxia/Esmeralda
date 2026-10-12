@@ -1,0 +1,39 @@
+:host { display: block; }
+
+.contact-block {
+  background: var(--brown-900);
+  color: var(--cream);
+  padding: 3rem;
+  border-radius: 2px;
+}
+
+.contact-block h2 {
+  font-size: 1.4rem;
+  color: var(--cream);
+}
+
+.contact-block p {
+  color: var(--tan);
+  margin: 1.5rem 0 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0 0;
+  border-top: 1px solid var(--brown-700);
+}
+
+.contact-list li {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--brown-700);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.contact-list span:first-child { color: var(--tan); }
+
+@media (max-width: 560px) {
+  .contact-block { padding: 2rem 1.5rem; }
+}

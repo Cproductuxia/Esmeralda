@@ -1,0 +1,10 @@
+<app-page-intro
+  titulo="Métodos de preparación"
+  texto="Cuatro formas distintas de extraer el mismo grano, cada una con su propio carácter."
+/>
+
+<main>
+  @for (m of metodos; track m.nombre) {
+    <app-method-row [nombre]="m.nombre" [tiempo]="m.tiempo" [descripcion]="m.descripcion" />
+  }
+</main>
